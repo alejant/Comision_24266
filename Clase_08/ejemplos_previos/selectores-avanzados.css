@@ -1,0 +1,86 @@
+/* Agrupación de selectores */
+body, main, header, article, footer, div, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* p > a { */ /* Para seleccionar sólo a los hijos directos */
+p > a {
+    color: green;
+}
+
+/* Selector adyacente */
+/* Sólo los h2 que le siguen a un h1 */
+h1 + h2 {
+    color: red;
+}
+
+/*
+p[class] {
+    background-color: gray;
+}
+
+p[class= "parrafo"] {
+    background-color: pink;
+}
+*/
+/* The general sibling selector (~) selects all elements that are next siblings of a specified element. */
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_sel_element_tilde */
+p[class~= "parrafo"] {
+    background-color: yellow;
+}
+
+/* El valor del atributo contiene */
+a[href*="google.com"] {
+    color: orange;
+}
+
+/* El valor del atributo empieza */
+a[href^="drive"] {
+    color: violet;
+}
+
+/* El valor del atributo finaliza */
+a[href$="gmail"] {
+    color: brown;
+}
+
+/* Agrupación de selectores. Para ahorrar texto, tiempo de carga. */
+.contenedor-alerta {
+    margin: 1rem;
+    height: 10rem;
+    width: auto;
+    background-color: red;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    /* line-height: 10rem; */
+}
+
+.contenedor-advertencia {
+    margin: 1rem;
+    height: 10rem;
+    width: auto;
+    background-color: red;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    /* line-height: 10rem; */
+}
+
+.contenedor-alerta, .contenedor-advertencia {
+    margin: 1rem;
+    height: 10rem;
+    width: auto;
+    background-color: red;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    /* line-height: 10rem; */
+}
+
+/* El selector universal se simboliza con un asterisco * y es la forma de aplicar ciertos estilos 
+en TODOS Y CADA UNO de los elementos HTML correspondientes. */
+div#menu * {
+    background-color: turquoise;
+}

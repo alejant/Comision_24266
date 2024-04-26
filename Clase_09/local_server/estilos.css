@@ -1,0 +1,42 @@
+.contenedor {
+    background-color: gray;
+    display: flex;
+    height: 200px;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.contenedor-2 {
+    background-color: rgb(107, 73, 73);
+    display: flex;
+}
+
+.item-1, .item-2, .item-3, .item-4,
+.item-5,.item-6,.item-7,.item-8,.item-9,
+.item-10,.item-11,.item-12,.item-13
+{
+    background-color: aquamarine;
+    border: 2px solid brown;
+    width: 50px;
+    height: 50px;
+}
+
+.item-14
+{
+    order: 1;
+    background-color: rgb(253, 255, 127);
+    border: 2px solid brown;
+    width: 50px;
+    height: 50px;
+}
+
+.item-15 {
+    align-self: start;
+    background-color: rgb(127, 255, 155);
+    border: 2px solid brown;
+    width: 50px;
+    height: 50px;
+}

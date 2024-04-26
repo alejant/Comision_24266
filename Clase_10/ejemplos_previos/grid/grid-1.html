@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Grid</title>
+    <style>
+        .box {
+            background: slateblue;
+            padding: 1rem;
+            color: white;
+            text-align: center;
+        }
+
+        .contenedor {
+            display: grid;
+            /* 3 columnas de 100px */
+            /* grid-template-columns: 100px 100px 100px; */
+            /* 3 columnas */
+            /* grid-template-columns: 50% 30% 20%; */
+            /* 2 columnas */
+            /* grid-template-columns: 60% 30%; */
+
+            /* fr: unidad de medida fr (fracción) */
+            /* https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout */
+            /* 3 columnas */
+            /* grid-template-columns: 1fr 2fr 1fr; */
+            /* grid-template-columns: 1fr 1fr; */
+            /* grid-template-columns: 1fr 3fr 1fr; */
+            /* grid-template-columns: 8fr 4fr; */
+            /* grid-template-columns: 2fr 1fr; */
+
+            grid-template-columns: repeat(2, 1fr); /* 1fr 1fr */
+            grid-template-rows: 2fr 1fr 3fr;
+            grid-auto-rows: 5fr; /* Las que se agreguen van a tener 3fr */
+
+            /* gap: 10px; */
+            /* column-gap: 20px;
+            row-gap: 10px; */
+            gap: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="box">1</div>
+        <!-- <div class="box">1<br>1<br>1<br>1</div> -->
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <!-- <div class="box">+</div>
+        <div class="box">+</div>
+        <div class="box">+</div>
+        <div class="box">+</div>
+        <div class="box">+</div> -->
+        <!-- <div class="box">+</div>
+        <div class="box">+</div>
+        <div class="box">+</div>
+        <div class="box">+</div>
+        <div class="box">+</div>
+        <div class="box">+</div>
+        <div class="box">+</div>
+        <div class="box">+</div> -->
+    </div>
+</body>
+</html>

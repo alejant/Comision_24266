@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* content-box por defecto */
+}
+
+div {
+    background-color: gray;
+    margin: 50px;
+    margin-left: 20px;
+    padding: 20px;
+    width: 300px;
+    min-height: 150px;
+}
+
+p {
+    /* background-color: white; */
+    background-color: inherit;
+}
+
+/* div p { */
+div > p {
+    /* background-color: gray; */
+    background-color: inherit;
+}
+
+.advertencia {
+    background-color: white;
+    /* border: red solid 5px; */
+    /* border-color: black;
+    border-bottom-color: red; */
+    border-color: black black red black; /* equivale a las 2 anteriores */
+    /* border-style: none; */
+    /* border: solid; */ /* esta regla estaba pisando la anterior */
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-width: 3px;
+}
+
+#cursiva {
+    font-style: italic;
+}

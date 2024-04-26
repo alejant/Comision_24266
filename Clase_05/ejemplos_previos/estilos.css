@@ -1,0 +1,14 @@
+/* Span y Div (contenedores de información) */
+span {
+    background-color: red;
+    border: 1px solid black;
+    /* display: block; */
+}
+
+div {
+    background-color: blue;
+    border: 2px solid black;
+    width: 30%;
+}
+/* Nota: Con display: inline el span no atiende a la propiedades de alto (height) y ancho (width) ya que se adaptará al tamaño del contenido. Cambiando a display: inline-block se permiten estas propiedades, porque se comporta como un div.
+Se puede hacer que un span se comporte como un div si en CSS agrego display: block. */

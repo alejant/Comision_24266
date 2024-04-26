@@ -1,0 +1,21 @@
+div {
+    /* margin: auto; */
+    /* width: 100px; */
+   width: 30%;
+    height: auto;
+    /* max-height: 500px; */
+    padding: 50px 10px;
+    border-color: red;
+    border-width: 10px;
+    border-style: solid;
+    border-bottom-style: dotted;
+    box-sizing: content-box; /* valor por defecto */
+/*    box-sizing: border-box; */
+/*    overflow: scroll;*/
+}
+
+p {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}

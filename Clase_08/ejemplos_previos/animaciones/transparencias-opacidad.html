@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparencias (Opacidad)</title>
+</head>
+<style>
+    .box1, .box2, .box3 {
+        width: 10rem;
+        height: 10rem;
+        position: absolute;
+        /* opacity: 0.5; */
+    }
+
+    .box1 {
+        /* background-color: blue; */
+        background-color: rgba(0,0,255,0.5);
+        top: 1rem;
+        left: 1rem;
+    }
+
+    .box2 {
+        background-color: green;
+        top: 2rem;
+        left: 2rem;
+    }
+
+    .box3 {
+        background-color: red;
+        top: 3rem;
+        left: 3rem;
+    }
+
+    .box3:hover {
+        opacity: 0.1;
+        /* Una función de tiempo linear siempre es constante, mientras que ease comienza suavemente, continua de forma más rápida y termina suavemente de nuevo. Ease-in y ease-out son variaciones que van más lento al principio o al final, y ease-in-out una mezcla de las dos. */
+        transition: opacity 1.5s ease-in;
+    }
+</style>
+<body>
+    <div class="box1">Box 1</div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

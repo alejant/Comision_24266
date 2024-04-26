@@ -1,0 +1,33 @@
+/* Selector universal (*) */
+* {
+    margin: 10px; /*margin establece el margen para los cuatro lados*/
+    padding: 5px; /*padding establece el espacio de relleno*/
+    background-color: lightgreen; /*cambia el color de relleno*/
+    font-family: Verdana; /*cambia el tipo de letra*/
+}
+
+/* Selector de etiqueta o tipo (<tag>) */
+h1 {
+    color: lightblue;
+    background-color: blue;
+}
+p {
+    color: black;
+    font-style: italic;
+    font-size: 130%;
+}
+
+/* Selector de clase (.selector) */
+.subtitulos {
+    margin-left: 50px;
+    color: yellowgreen;
+    background-color: olivedrab;
+}
+
+/* Selector de id (#selector) */
+#texto {
+    color: white;
+    background-color: violet;
+    text-align: center;
+    margin-left: 100px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de medidas</title>
+    <style>
+        :root {
+            font-size: 56px;
+        }
+
+        /* Medidas absolutas */
+        body {
+            font-size: 26px;    /* Medida Absoluta. Tamaño general */
+        }
+
+        /* Medidas relativas */
+        h1 {
+            font-size: 2rem;    /* El doble del tamaño general: 44px */
+        }
+
+        h2 {
+            font-size: 1rem;    /* El mismo tamaño general: 22px */
+        }
+
+        p {
+            font-size: 0.6rem;
+        }
+
+        span {
+            font-size: 150%;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Título 1</h1>
+    <h2>Título 2</h2>
+    <div>Soy el body</div>
+    <p>Lorem, ipsum dolor sit <span>amet consectetur</span> adipisicing elit. Odio omnis similique culpa obcaecati sunt quibusdam quia doloribus placeat, eos dolorum facere nulla accusantium earum quos quis nesciunt laborum magnam laboriosam.</p>
+    <!-- em: Relative to the font-size of the element (2em means 2 times the size of the current font) -->
+    <!-- rem: Relative to font-size of the root element -->
+    <!-- Más ejemplos: https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Values_and_units -->
+    <!-- La unidad de medida rem es muy similar a em, con la única diferencia de que no es escalable, esto quiere decir que no depende del elemento padre, sino del elemento raíz del documento, el elemento HTML. -->
+</body>
+</html>

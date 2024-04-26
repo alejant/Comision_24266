@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;  /* Acá le digo que es flexible */
+    /* flex-direction: row; Por defecto */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    justify-content: left;
+    /* align-content: stretch; */
+    /* flex-direction: column-reverse; */ /* Establece la dirección del eje principal en vertical (invertido). */
+    /* multilínea */
+    /* flex-wrap: wrap; */
+    /* Por defecto: nowrap. Establece los ítems en una sola línea (no permite que se desborde el contenedor). */
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+    /* min-width: 1000px; */
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    /* min-width: 100px; */
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}

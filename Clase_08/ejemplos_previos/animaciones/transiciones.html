@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transiciones</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background: red;
+            
+            /* https://www.w3schools.com/cssref/css3_pr_transition-property.asp
+            CSS Syntax
+            transition-property: none|all|property|initial|inherit;
+            Property Values
+            Value	Description
+            none	No property will get a transition effect
+            all	Default value. All properties will get a transition effect
+            property	Defines a comma separated list of CSS property names the transition effect is for
+            initial	Sets this property to its default value. Read about initial
+            inherit	Inherits this property from its parent element. Read about inherit */
+            transition-property: width;
+            transition-duration: 2s;    
+            /* Atajo: Transiciones */
+            /* transition: width 2s; */
+        }
+        
+        div:hover {
+            width: 300px;
+        }
+
+        a {
+            background: #DDD;
+            color: #222;
+            padding: 2px;
+            border: 1px solid #AAA;
+        }
+
+        a:hover {
+            background: #FFF;
+            color: #666;
+            padding: 18px 24px;
+            border: 1px solid #888;
+
+            transition-property: all;
+            transition-duration: 0.2s;
+            transition-timing-function: ease-in;
+        }
+    </style>
+</head>
+<body>
+    <div>Esto es una transición...</div>
+    <a href="">Enlace con transición</a>
+</body>
+</html>
