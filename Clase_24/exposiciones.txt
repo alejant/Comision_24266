@@ -1,0 +1,24 @@
+Grupo 11
+	* Evelyn Yamila Nobile
+	* Vanesa Yolanda Castillo
+	Web: https://tpo-desarrollo-web-js.vercel.app/
+Grupo 3
+	* Gaston Lopez Amoreo
+	* German Di Paola 
+	* Adalberto Torres
+	Web: https://solnagames.netlify.app/
+Grupo 8
+	* Andres Duprat 
+	* Joaquín Ezequiel Belsito
+	* Leonardo Fabian Alvea
+	Web: https://cursopython24266g8.netlify.app/
+Grupo 2
+	* Lucas Nahuel Fernandez Beschtedt 
+	* Leonardo Meden
+	* Martin Tolosa
+	Web: https://tragoscodoacodo.netlify.app/
+Grupo 7
+	* Stella Maris Wagner 
+	* Juan Ignacio Sota
+	Web: https://proyecto-python.netlify.app/
+
